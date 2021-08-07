@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        border: 2px solid slateblue;
+      }
+      .container {
+        border: 2px solid black;
+        position: relative;
+      }
+      .box {
+        width: 150px;
+        height: 150px;
+        margin: 10px;
+        text-align: center;
+      }
+      #box-1 {
+        background-color: chocolate;
+      }
+      #box-2 {
+        background-color: rgb(77, 35, 5);
+        /* position: relative; */
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        /* top: -300px;
+        left: 500px; */
+      }
+      #box-3 {
+        background-color: rgb(107, 105, 5);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Explore relative and absolute position one more time</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur et accusantium,
+      nulla corrupti illo nesciunt minus, culpa voluptatem, nostrum provident aliquam
+      aliquid quas. Eos labore minima veritatis voluptates natus, quibusdam aperiam modi
+      blanditiis voluptate aut asperiores accusantium nesciunt, vitae magnam.
+    </p>
+    <div class="container">
+      <div class="box" id="box-1">BOX-1</div>
+      <div class="box" id="box-2">BOX-2</div>
+      <div class="box" id="box-3">BOX-3</div>
+    </div>
+  </body>
+</html>
